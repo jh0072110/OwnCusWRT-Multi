@@ -29,7 +29,7 @@ rm -rf feeds/packages/lang/golang
 sed -i 's/192.168.1.1/172.17.17.1/g' package/base-files/files/bin/config_generate
 git clone https://github.com/sbwml/packages_lang_golang -b 27.x feeds/packages/lang/golang
 git clone https://github.com/jerrykuku/luci-theme-argon package/luci-theme-argon
-git clone https://github.com/itsmaiGe/luci-theme-7dollar package/7dollar
+git clone https://github.com/itsmaiGe/luci-theme-7dollar package/luci-theme-7dollar
 git clone https://github.com/anothaDev/luci-theme-vantage package/vantage
 git clone https://github.com/sbwml/luci-app-openlist2 package/luci-app-olist
 git clone -b main https://github.com/Openwrt-Passwall/openwrt-passwall package/psw
