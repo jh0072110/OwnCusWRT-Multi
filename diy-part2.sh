@@ -34,8 +34,6 @@ git clone https://github.com/anothaDev/luci-theme-vantage package/vantage
 git clone https://github.com/sbwml/luci-app-openlist2 package/luci-app-olist
 git clone -b main https://github.com/Openwrt-Passwall/openwrt-passwall package/psw
 git clone https://github.com/Openwrt-Passwall/openwrt-passwall-packages package/pswcore
-git clone -b dev https://github.com/immortalwrt/homeproxy package/homeproxy
-git clone https://github.com/sirpdboy/luci-app-ddns-go package/ddns-go
 git clone https://github.com/sbwml/luci-app-mosdns package/mosdns
 
 sed -i 's@ucode -T, -s@ucode -L "$(1)/.." -T, -s@g' feeds/luci/luci.mk
